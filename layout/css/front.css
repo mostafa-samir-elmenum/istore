@@ -1,0 +1,559 @@
+/*start top navbar*/
+
+.topnav .first ,.topnav .second
+{
+    text-transform: capitalize;
+    
+}
+.topnav i
+{
+    color:#00ACC1;
+}
+/*end top navbar*/
+
+/*start navbar*/
+.navbar
+{
+    background-color: #00ACC1 !important;
+}
+.navbar .navbar-brand
+{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+.navbar .navbar-toggler-icon
+{
+    color: #4A148C !important;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link
+{
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.navbar .collapse .navbar-nav .dropdown .dropdown-menu a
+{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.navbar .form-inline .btn
+{
+    background-color: #9C27B0;
+    border-color: indigo;
+    text-decoration: capitalize;
+}
+.navbar .collapse .navbar-nav .dropdown .dropdown-menu a:hover
+{
+    background-color:rgba(0, 172, 193,1.0) ;
+    color: #fff;
+}
+.navbar-text
+{
+    text-transform: capitalize;
+    color: #fff !important;
+    font-size: 25px;
+}
+/*end navbar*/
+
+
+/*start carousel*/
+.carousel
+{
+    margin-bottom: 70px;
+    border: 5px solid #00ACC1;
+    border-radius: 10px;
+}
+.carousel .carousel-indicators li
+{
+    background-color:#00ACC1;
+}
+.carousel .carousel-control-prev-icon,.carousel .carousel-control-next-icon
+{
+    background-color: #00ACC1 !important;
+}
+/*end carousel*/
+
+/*start offer*/
+.off
+{
+    border-radius: 20px;
+}
+.offers
+{
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgba(0, 172, 193,0.5),rgba(0, 131, 143,0.5)),url("../img/car3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 373px;
+    width: 100%;
+    padding: 10px;
+}
+ fieldset
+{
+    border-top: 5px solid #00ACC1;
+}
+ fieldset legend
+{
+    border: 5px solid #00ACC1;
+    width: 30%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+
+.offers  p
+{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.offers  .old
+{
+    text-decoration: line-through;
+}
+.front  
+{
+    background-color: #00ACC1;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 999;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    transform-style: preserve-3d;
+    color: #fff;
+    padding: 10px;
+    padding-top: 15px;
+    
+}
+.front-back:hover
+{
+    transform: translate(15px,15px);
+}
+
+.front:hover
+{
+    transform: rotateY(180deg);
+}
+.back
+{
+    background-color: rgba(0, 172, 193,0.6);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -300px;
+    color: #fff;
+    padding: 10px;
+    padding-top: 15px;
+}
+/*end offer*/
+
+/*start latest items*/
+.carousel .carousel-inner .carousel-item .card
+{
+    border-color: #00ACC1;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: rgba(0, 172, 193,0.6);
+}
+.carousel .carousel-inner .carousel-item .card .badge
+{
+    font-weight: bold;
+            font-size: 25px;
+            position: relative;
+            top: -60px;
+            left: 259px;
+            transform: rotate(45deg);
+            border-radius: 16px;
+            background-color: #00ACC1;
+}
+
+/*end latest items*/
+/*start offer overview*/
+.overview .offer-img
+{
+    background-image: linear-gradient(rgba(0, 172, 193,0.5),rgba(0, 131, 143,0.5)), url("../img/offer3.png");
+    height: 300px;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.overview .offer-img .offer-content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.overview .offer-img .offer-content h2
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #fff;
+}
+.overview .offer-img .offer-content button
+{
+    background-color: #00ACC1 !important;
+}
+.overview .offer-img .offer-content button a
+{
+    color: #fff !important;
+    text-transform: capitalize;
+}
+
+/*end offer overview*/
+
+/*start about us*/
+.about-us
+{
+    height: 650px;
+}
+.about-us .about-cover .about-text
+{
+    text-transform: capitalize;
+    color: #000;
+}
+.about-us .about-cover .about-text p
+{
+    font-weight: bold;
+    justify-content: center;
+    text-align: justify;
+}
+.about-us .about-cover
+{
+    background-image: linear-gradient(rgba(0, 172, 193,0.5),rgba(0, 131, 143,0.5)),url("../img/pexels-photo.jpeg");
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.about-img
+{
+    top: 71px;
+    position: relative;
+    left: 22px;
+}
+.about-img > div
+{
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+    position: relative;
+    transition-duration: 0.8s;
+    transition-timing-function: linear;
+    border-radius: 20px;
+}
+.about-img .img-one
+{
+    left: 189px;
+    background-image: url(../img/car7.jpeg);
+    top: 14px;
+}
+.about-img .img-two
+{
+    background-image: linear-gradient(rgba(77, 208, 225,0.6),rgba(38, 198, 218,0.6)),url("../img/car7.jpeg");
+    width: 415px;
+    height: 400px;
+}
+.about-img .img-three
+{
+    background-image: url(../img/imgone.jpeg);
+    right: 157px;
+    top: -101px;
+}
+.about-img .img-one:hover
+{
+    transform: rotate(45deg);
+}
+
+.about-img .img-two:hover
+{
+    transform: translateX(20px);
+    z-index: 999;
+}
+
+.about-img .img-three:hover
+{
+    transform: rotate(-45deg);
+}
+/*end about us*/
+
+/*start show items*/
+
+.showitem
+{
+    text-transform: capitalize;
+    border: 3px solid #00ACC1;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.showitem:hover
+{
+    box-shadow: 0px 8px 14px #00ACC1;
+    transform: translate(10px,10px);
+}
+.showitem button
+{
+    background-color: #00ACC1 !important;
+}
+.showitem button a
+{
+    color: #fff !important;
+    text-transform: capitalize;
+}
+
+.details-left img
+{
+    border:5px solid #00ACC1;
+    border-radius: 20px;
+    transform: skew(10deg);
+}
+.details-center
+{
+    text-transform: capitalize;
+}
+.details-center h3
+{
+    color:#00ACC1;
+}
+.details-right button
+{
+    background-color: #00ACC1 !important;
+} 
+.details-right button a
+{
+    color: #fff !important;
+    text-transform: capitalize;
+}
+.details-right label
+{
+    text-transform: capitalize;
+}
+
+.no-data
+{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    color: #00ACC1;
+}
+/*end show items*/
+
+
+/*start login page*/
+.login
+{
+    background-color: #00ACC1;
+    height: 500px;
+    width: 100%;
+}
+.login h1
+{
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+
+}
+.login .login-color
+{
+    border: 3px solid rgba(0, 172, 193,1.0);
+    border-radius: 10px;
+    height: 350px;
+}
+.login .login-color .form-login
+{
+    background-color: lemonchiffon;
+}
+.login .login-color .form-login h1,.login .login-color .form-login label
+{
+   color: #00ACC1;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.login .login-color .form-login input,.signup .signup-form input
+{
+    border-color: #00ACC1 !important;
+}
+.login .login-color .form-login .btn,.signup .signup-form .btn
+{
+    background-color:#00ACC1 !important ;
+    border-color: #00ACC1 !important;
+}
+
+.login .login-color .login-content
+{
+    background-image:linear-gradient(rgba(0, 172, 193,0.5),rgba(0, 131, 143,0.5)), url("../img/login.jpeg");
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login .login-color .login-content 
+{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 25px;
+}
+/*end login page*/
+
+/*start signup*/
+.signup
+{
+    background-image:linear-gradient(rgba(0, 172, 193,0.5),rgba(0, 131, 143,0.5)), url("../img/signup3.jpeg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signup .signup-content ,.signup .signup-form h1,.signup .signup-form label
+{
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Lobster', cursive;
+}
+.signup .signup-content h1
+{
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.signup .signup-form label
+{
+   font-weight: bold;
+   font-size: 20px;
+}
+.valid-feedback,.invalid-feedback
+{
+    font-weight: bold !important;
+    font-size: 20px !important;
+    text-transform: capitalize !important;
+}
+/*end signup*/
+
+/*start footer*/
+footer
+{
+    background-color: #00ACC1!important;
+    text-transform: capitalize;
+    color: #fff;
+    
+}
+footer h2
+{
+    text-align: center;
+}
+
+
+
+.sess
+{
+    display: none;
+}
+/*start profil*/
+.profile
+{
+    background-color:#26C6DA;
+    height: 100vh;
+}
+
+.profile .show-data
+{
+    background-color: #00ACC1;
+    height: 100vh;
+    width: 70%;
+    margin: auto;
+}
+
+.profile .show-data .show-img
+{
+    background-image:linear-gradient(rgba(0, 172, 193,0.5),rgba(0, 131, 143,0.5)),url("../img/profil.jpeg"); 
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    clip-path: polygon(0 0,100% 0,100% 60%,0% 100%);
+    position: relative;
+}
+.profile .show-data .show-img .user-img
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.inner-img 
+{
+    /*background-image: url("../img/signup.jpeg");*/
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50px, -50px);
+    background-position: center;
+}
+.inner-img  img
+{
+    width: 150px;
+    height: 150px;
+}
+.profile .card 
+{
+    text-transform: capitalize;
+    background-color: #00BCD4 !important;
+    color: #000;
+    
+}
+.profile .card p
+{
+    font-weight: bold;
+}
+.profile .card .btn
+{
+    background-color: #00ACC1;
+    border: 5px solid #00ACC1;
+}
+.profile .card .btn 
+{
+    text-transform: capitalize;
+    color: #000;
+    font-weight: bold;
+}
+/*end profil*/
+/*start comment*/
+.all-comment
+{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.comment p 
+{
+    text-transform: capitalize;
+}
+.comment .name
+{
+    font-weight: bold;
+}
+/*end comment*/
+@media(max-width:780px)
+{
+    .front-back,.about-img,.offers
+    {
+        display: none;
+    }
+}

@@ -1,0 +1,35 @@
+
+/*start navbar*/
+.navbar .navbar-nav .nav-item .nav-link
+{
+    color:#fff ;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 21px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover
+{
+    color: #4527A0;
+}
+/*end navbar*/
+
+/*start sidebar*/
+.side
+{
+    background-image: linear-gradient(rgba(69, 39, 160,0.5),rgba(49, 27, 146,0.5)),url("../img/2.jpg")  !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -15px;
+   
+}
+/*end sidebar*/
+
+/*start card*/
+.container-fluid
+{
+    background-color: greenyellow;
+    /*margin-bottom: 61px !important;*/
+}
+
+/*end card*/

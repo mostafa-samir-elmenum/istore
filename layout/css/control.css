@@ -1,0 +1,88 @@
+
+/*start navbar*/
+.navbar
+{
+    background-color: #00BCD4 !important;
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+    color:#fff ;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 21px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover
+{
+    color: #006064;
+}
+/*end navbar*/
+
+/*start sidebar*/
+.side
+{
+    background-color:#00BCD4   !important;
+    position: relative;
+    left: -15px;
+}
+/*end sidebar*/
+
+/*start card*/
+.container-fluid
+{
+    background-color: #80DEEA;
+   
+}
+.main-info
+{
+    border: 3px solid #006064;
+    padding: 18px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    border-bottom: 10px solid #006064;
+    color: #fff;
+    margin-top: 40px;
+    background-color: #00BCD4;
+}
+.main-info:hover
+{
+    box-shadow: -12px 18px 25px #00838F;
+}
+.istore-stat
+{
+    border: 2px solid #006064;
+    padding: 10px;
+    margin-bottom:40px;
+}
+.istore-stat h1
+{
+    text-transform: capitalize;
+    color: #000;
+}
+
+.istore-stat table tr td
+{
+    color: #000;
+}
+
+.approve
+{
+    background-color:#00838F !important ;
+}
+/*end card*/
+
+
+@media(max-width:780px)
+{
+   .table .h
+    {
+        display: none;
+    }
+    .side .xx
+    {
+        background-color:#00BCD4   !important;
+        width: 100%;
+        top: -15px;
+        left: -30px;
+    }
+}
+
